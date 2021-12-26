@@ -4,8 +4,8 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
-  color: #fff;
+  background-color: black;
+  color: white;
   overflow-x: hidden;
 }
 #root {
@@ -20,6 +20,10 @@ h1 {
   h1 {
     font-size: 3rem;
   }
+}
+
+.content-container {
+  margin:auto;
 }
 
 .unsupported-network {
@@ -118,13 +122,15 @@ button {
   cursor: pointer;
   background-color: #000;
   color: #fff;
-  border: none;
+  border-color: white;
   font-weight: bold;
   font-family: inherit;
   padding: 1.2rem 2rem;
   text-transform: uppercase;
   border-radius: 3rem;
   font-size: 1.2rem;
+  margin: auto;
+  display: block;
 }
 
 button:hover {
@@ -138,4 +144,25 @@ button:focus {
 button:disabled {
   opacity: 0.8;
   pointer-events: none;
+}
+
+
+.instructions-here{
+  color: white;
+  display: block;
+  margin: 5px 5px 10px 5px;
+  text-align: center;
+
+}
+
+.keep-white:link {
+  color:white;
+}
+
+.keep-white:hover {
+  color:white;
+}
+
+.keep-white:visited {
+  color:white;
 }
