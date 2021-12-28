@@ -3,7 +3,7 @@ import sdk from "./1-initialize-sdk.js";
 
 // This is the address of our ERC-20 contract printed out in the step before.
 const tokenModule = sdk.getTokenModule(
-  "0x217a70f4c913F49E865FE3D583Dc974802cdC71b",
+  "0xc56693AC133d4f5890A90dB3Aa64EaD2C5296cDd",
 );
 
 (async () => {
@@ -21,7 +21,7 @@ const tokenModule = sdk.getTokenModule(
     console.log(
       "✅ There now is",
       ethers.utils.formatUnits(totalSupply, 18),
-      "$ADHD in circulation",
+      "$DDL in circulation",
     );
   } catch (error) {
     console.error("Failed to print money", error);

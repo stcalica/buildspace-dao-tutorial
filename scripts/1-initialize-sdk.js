@@ -38,4 +38,4 @@ const thirdsdk = new ThirdwebSDK(
 // We are exporting the initialized thirdweb thirdsdk so that we can use it in our other scripts
 export default thirdsdk;
 
-//address:0x4D517976aAC0fFAf235dA04FdA42F7C2a62840C6
+//address:0x0EdeAe7f10314e8A6FAD2132889E08DaF79F1046

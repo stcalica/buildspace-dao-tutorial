@@ -1,7 +1,7 @@
 import sdk from "./1-initialize-sdk.js";
 
 const tokenModule = sdk.getTokenModule(
-  "0x217a70f4c913F49E865FE3D583Dc974802cdC71b",
+  "0xc56693AC133d4f5890A90dB3Aa64EaD2C5296cDd",
 );
 
 (async () => {

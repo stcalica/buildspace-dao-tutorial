@@ -2,17 +2,17 @@ import sdk from "./1-initialize-sdk.js";
 
 // Grab the app module address.
 const appModule = sdk.getAppModule(
-  "0x4D517976aAC0fFAf235dA04FdA42F7C2a62840C6",
+  "0x0EdeAe7f10314e8A6FAD2132889E08DaF79F1046",
 );
 
 (async () => {
   try {
     const voteModule = await appModule.deployVoteModule({
       // Give your governance contract a name.
-      name: "Adhd's Attentive Proposals",
+      name: "DApps and DAOs Proposals",
 
       // This is the location of our governance token, our ERC-20 contract!
-      votingTokenAddress: "0x217a70f4c913F49E865FE3D583Dc974802cdC71b",
+      votingTokenAddress: "0xc56693AC133d4f5890A90dB3Aa64EaD2C5296cDd",
 
       // After a proposal is created, when can members start voting?
       // For now, we set this to immediately.
@@ -39,4 +39,4 @@ const appModule = sdk.getAppModule(
     console.log("Failed to deploy vote module", err);
   }
 })();
-//0x2940f8d0770A3D6640A2a054a9Eb3a90f15635e1
+//0x031a8FCCFd0b18f00cc069146C43285F6527D64b

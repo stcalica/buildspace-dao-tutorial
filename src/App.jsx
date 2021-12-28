@@ -7,15 +7,15 @@ const sdk = new ThirdwebSDK("rinkeby");
 
 // We can grab a reference to our ERC-1155 contract.
 const bundleDropModule = sdk.getBundleDropModule(
-  "0x94f9f891D981F60bc5dc6fbe491Ca4d3FC540855",
+  "0xF5e792349b481E8D79F0a6f06aB4540c0ac4bD6F",
 );
 
 const tokenModule = sdk.getTokenModule(
-  "0x217a70f4c913F49E865FE3D583Dc974802cdC71b"
+  "0xc56693AC133d4f5890A90dB3Aa64EaD2C5296cDd"
 );
 
 const voteModule = sdk.getVoteModule(
-  "0x2940f8d0770A3D6640A2a054a9Eb3a90f15635e1",
+  "0x031a8FCCFd0b18f00cc069146C43285F6527D64b",
 );
 
 
@@ -168,9 +168,9 @@ const App = () => {
   if(!address){
     return(
       <div className="content-container">
-        <h1>Welcome to AdhdDAO!</h1>
+        <h1>Welcome to DApps and DAOs!</h1>
         <div className="instructions">
-          <h2 style={{'textAlign':'center'}}>An example DAO to learn about DAOs!</h2>
+          <h2 style={{'textAlign':'center'}}>An example DAO to learn about DApps and DAOs!</h2>
           <p style={{'textAlign':'center'}}> To use this app all you need to do is get a wallet with a browser extension like <a className="keep-white" href="https://metamask.io/download">MetaMask</a></p>
           <a  className="instructions-here keep-white" href="https://gist.github.com/tschubotz/8047d13a2d2ac8b2a9faa3a74970c7ef">Follow the Instructions here!</a>
         </div>
@@ -186,8 +186,8 @@ const App = () => {
    if (hasClaimedNFT) {
      return (
        <div className="member-page">
-         <h1>ADHD DAO Member Page</h1>
-         <p>Congratulations on being an attentive member</p>
+         <h1>DApps and DAOs Member Page</h1>
+         <p>Congratulations on being a member!</p>
          <div>
            <div>
              <h2>Member List</h2>
@@ -362,7 +362,8 @@ const App = () => {
 
    return (
   <div className="mint-nft">
-    <h1>Mint your free ADHD DAO Membership NFT</h1>
+    <h1>Mint Your Free Membership NFT</h1>
+    <h3> This will give you access to the app as a member of the DAO</h3>
     <p> Make sure MetaMask is on the Rinkeby network so you don't spend real money! </p>
     <p> Then add "fake" ETH here: <a className="keep-white" href="https://faucets.chain.link/rinkeby">https://faucets.chain.link/rinkeby</a>, it's free! And then claim your NFT! </p>
     <button
