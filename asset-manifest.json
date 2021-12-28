@@ -2,9 +2,9 @@
   "files": {
     "static/js/0.135fe6c1.chunk.js": "/buildspace-dao-tutorial/static/js/0.135fe6c1.chunk.js",
     "static/js/0.135fe6c1.chunk.js.map": "/buildspace-dao-tutorial/static/js/0.135fe6c1.chunk.js.map",
-    "main.css": "/buildspace-dao-tutorial/static/css/main.ddecd2e3.chunk.css",
-    "main.js": "/buildspace-dao-tutorial/static/js/main.17d456ac.chunk.js",
-    "main.js.map": "/buildspace-dao-tutorial/static/js/main.17d456ac.chunk.js.map",
+    "main.css": "/buildspace-dao-tutorial/static/css/main.6c975c35.chunk.css",
+    "main.js": "/buildspace-dao-tutorial/static/js/main.49d97997.chunk.js",
+    "main.js.map": "/buildspace-dao-tutorial/static/js/main.49d97997.chunk.js.map",
     "runtime-main.js": "/buildspace-dao-tutorial/static/js/runtime-main.927c49a3.js",
     "runtime-main.js.map": "/buildspace-dao-tutorial/static/js/runtime-main.927c49a3.js.map",
     "static/js/3.d76d7b7b.chunk.js": "/buildspace-dao-tutorial/static/js/3.d76d7b7b.chunk.js",
@@ -30,7 +30,7 @@
     "static/js/13.5afda30d.chunk.js": "/buildspace-dao-tutorial/static/js/13.5afda30d.chunk.js",
     "static/js/13.5afda30d.chunk.js.map": "/buildspace-dao-tutorial/static/js/13.5afda30d.chunk.js.map",
     "index.html": "/buildspace-dao-tutorial/index.html",
-    "static/css/main.ddecd2e3.chunk.css.map": "/buildspace-dao-tutorial/static/css/main.ddecd2e3.chunk.css.map",
+    "static/css/main.6c975c35.chunk.css.map": "/buildspace-dao-tutorial/static/css/main.6c975c35.chunk.css.map",
     "static/js/3.d76d7b7b.chunk.js.LICENSE.txt": "/buildspace-dao-tutorial/static/js/3.d76d7b7b.chunk.js.LICENSE.txt",
     "static/js/4.b968f27c.chunk.js.LICENSE.txt": "/buildspace-dao-tutorial/static/js/4.b968f27c.chunk.js.LICENSE.txt",
     "static/js/6.e1dcfd2d.chunk.js.LICENSE.txt": "/buildspace-dao-tutorial/static/js/6.e1dcfd2d.chunk.js.LICENSE.txt"
@@ -38,7 +38,7 @@
   "entrypoints": [
     "static/js/runtime-main.927c49a3.js",
     "static/js/3.d76d7b7b.chunk.js",
-    "static/css/main.ddecd2e3.chunk.css",
-    "static/js/main.17d456ac.chunk.js"
+    "static/css/main.6c975c35.chunk.css",
+    "static/js/main.49d97997.chunk.js"
   ]
 }
