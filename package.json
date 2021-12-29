@@ -1,7 +1,7 @@
 {
   "name": "mydao",
   "version": "0.1.0",
-  "homepage": "http://stcalica.github.io/buildspace-dao-tutorial",
+  "homepage": "http://stcalica.github.io/dapps-and-daos",
   "private": true,
   "engines": {
     "node": ">=16.0.0"
